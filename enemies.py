@@ -16,3 +16,6 @@ class Ogre(Enemy):
         super().__init__(name="Ogre", hp = 30, damage=15)
 
 
+class Orc(Enemy):
+    def __init__(self):
+        super().__init__(name="Orc", hp = 10, damage=5)
